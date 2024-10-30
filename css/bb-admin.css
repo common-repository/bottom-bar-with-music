@@ -1,0 +1,86 @@
+ul.navi {
+	float: left;
+	height: 28px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	width: 100%;
+}ul.navi li {
+	float: left;
+	height: 27px;
+	line-height: 26px;
+	border: 1px solid #ccc;
+	border-left: none;
+	margin: 0 0 -1px;
+	background: #E0E0E0;
+	overflow: hidden;
+}ul.navi li a {
+	text-decoration: none;
+	color: #333333;
+	display: block;
+	font-size: 11px;
+	font-weight:700;
+	padding: 0 20px;
+	border: 1px solid #fff;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.8);
+}ul.navi li a:hover {
+	background: #C9C9C9;
+}
+ul.navi li.active a {
+	color:#333333;
+}
+ul.navi li.active, ul.navi li.active a:hover {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+.recommendations_content {
+	border: 1px solid #ccc;
+	border-top: none;
+	clear: both;
+	float: left; 
+	width: 100%;
+	background: #fff;
+}
+.single_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+.single_content h2 {
+	color:#B9B0AC;
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.single_content p {
+	margin:0 0 10px;
+	font-size:11px;
+	line-height:normal;
+}
+.single_content table td img { vertical-align: middle; border: 0; }
+.single_content img {
+	border: 0;
+	vertical-align: middle;
+}
+.single_content input[type="radio"], .single_content input[type="checkbox"] {
+	vertical-align: middle;
+}
+.single_content select {
+	width: 50px;
+}
+.single_content form label {
+	display: block;
+	padding: 0 0 10px;
+	font-weight: bold;
+}
+.single_content  input.text-input {
+	padding: 6px;
+	font-size: 13px;
+	background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+	border: 1px solid #d5d5d5;
+	color: #333;
+}
+.single_content .small-input {
+	width: 150px;
+}
+.single_content .medium-input {
+	width: 300px;
+}
